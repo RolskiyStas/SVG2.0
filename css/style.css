@@ -1,0 +1,227 @@
+@import url(../fonts/_fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato-Light";
+}
+.header {
+  background: url(../img/header_bg.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.header__container {
+  text-align: center;
+  height: 100vh;
+  padding-top: 15%;
+  color: #fff;
+  position: relative;
+}
+.header__logo {
+  width: 70px;
+  height: 70px;
+}
+.header__title {
+  font-family: "Lato-Bold";
+  font-size: 47px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 60px 0 30px 0;
+}
+.header__subtitle {
+  font-family: "Lato-Regular";
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header__scroll {
+  width: 23px;
+  height: 37px;
+  position: absolute;
+  bottom: 45px;
+}
+.about__container {
+  text-align: center;
+  margin: 160px auto;
+  border: 1px solid #000;
+  position: relative;
+}
+.title {
+  font-family: "Lato-Bold";
+  font-size: 34px;
+  position: relative;
+  bottom: 25px;
+  width: 420px;
+  margin: 0 auto;
+  background-color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.text {
+  font-family: "Lato-Light";
+  font-size: 16px;
+  padding: 25px 175px;
+}
+.services {
+  height: 490px;
+}
+.main__services {
+  background: url(../img/services.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+.services__container {
+  text-align: center;
+  border: 1px #fff;
+  border-style: none solid solid;
+  position: relative;
+  top: 30%;
+  color: #fff;
+}
+.services__title {
+  overflow: hidden;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+}
+.services__title h3 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 420px;
+}
+.services__title::before,
+.services__title::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+}
+.services__title::before {
+  margin-left: -100%;
+  left: -14px;
+}
+.services__title::after {
+  margin-right: -100%;
+  right: -14px;
+}
+.teams__container {
+  text-align: center;
+  margin: 160px auto;
+  border: 1px solid #000;
+  position: relative;
+  height: 950px;
+}
+.teams__block {
+  width: 550px;
+  margin: 0 auto;
+}
+.block__img {
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+}
+.block__prof {
+  font-family: "Lato-Bold";
+  font-size: 20px;
+  color: #3c3c3c;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.block__text {
+  font-family: "Lato-Light";
+  font-size: 14px;
+  color: #3c3c3c;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery__block {
+  width: 33%;
+  height: 240px;
+  margin-top: 5px;
+  position: relative;
+}
+.gallery__block--top {
+  background: url(../img/topworkz.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__block--jo {
+  background: url(../img/joint.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__block--mr {
+  background: url(../img/market.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__block--wr {
+  background: url(../img/worktop.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__block--lb {
+  background: url(../img/lable.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__block--ky {
+  background: url(../img/kyiv.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.gallery__title {
+  font-family: "Lato-Bold";
+  font-size: 34px;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+  text-transform: uppercase;
+}
+.contact__container {
+  text-align: center;
+  margin: 160px auto 25px;
+  border: 1px solid #3c3c3c;
+  position: relative;
+}
+.contact__button {
+  width: 390px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #3c3c3c;
+  color: #fff;
+  font-size: 16px;
+  margin: 45px;
+  border: none;
+}
+.contact__copy {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3c3c;
+  align-items: center;
+  padding: 15px;
+}
+.copy__img {
+  width: 35px;
+  height: 37px;
+}
+.copy__text {
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  color: #fff;
+  margin-left: 30px;
+}
